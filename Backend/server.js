@@ -17,8 +17,7 @@ app.use(express.json());
 app.use(logger);
 app.use(cors({
     origin: 'http://localhost:5173',
-    'https://preeminent-salmiakki-69f71d.netlify.app'// allow Vite frontend
-    credentials: true
+    'https://preeminent-salmiakki-69f71d.netlify.app'
   }));
   
 
